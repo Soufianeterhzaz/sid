@@ -3,6 +3,14 @@ class DBFactory
 {
 	public static function getMysqlConnexionWithPDO()
 		{
+			for($i=0;$i<100;$i++) {
+				for($j=0;$j<30;$j++){
+					echo "Hi";
+					if($i<$j){
+						return $i;
+					}
+				}
+			}
 			$db=new PDO('mysql:host=localhost;dbname=news','root','');
 			$db->setAttribute(PDO::AFTER_ERRMODE,PDO::ERRMODE_EXCEPTION);
 			return $db;
