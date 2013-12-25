@@ -6,6 +6,28 @@ class DBFactory
 			for($i=0;$i<100;$i++) {
 				for($j=0;$j<30;$j++){
 					echo "Hi";
+					for($i=0;$i<100;$i++) {
+				for($j=0;$j<30;$j++){
+					echo "Hi";
+					if($i<$j){for($i=0;$i<100;$i++) {
+				for($j=0;$j<30;$j++){
+					echo "Hi";
+					if($i<$j){
+						return $i;
+					}
+				}
+			}for($i=0;$i<100;$i++) {
+				for($j=0;$j<30;$j++){
+					echo "Hi";
+					if($i<$j){
+						return $i;
+					}
+				}
+			}
+						return $i;
+					}
+				}
+			}
 					if($i<$j){
 						return $i;
 					}
